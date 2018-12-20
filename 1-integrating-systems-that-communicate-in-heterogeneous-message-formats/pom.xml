@@ -2,18 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <groupId>org.wso2.carbon</groupId>
+        <artifactId>testng-test</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>org.wso2.carbon</groupId>
-    <artifactId>testng-test</artifactId>
-    <version>1.0.0</version>
-
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>1-integrating-systems-that-communicate-in-heterogeneous-message-formats</module>
-    </modules>
-
+    <artifactId>1-heterogeneous-message-formats-tests</artifactId>
+    <name>Integrating Systems that Communicate in Heterogeneous Message Formats</name>
+    <packaging>jar</packaging>
 
     <build>
 
